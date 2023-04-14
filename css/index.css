@@ -1,0 +1,49 @@
+* {
+  background-color: #a7a8bd;
+  text-decoration: none;
+  color: initial;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: dyh;
+  src: url(../font/dyh.ttf);
+}
+
+html,
+body {
+  height: 90%;
+}
+
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 3rem auto;
+}
+
+.container > div {
+  text-align: center;
+}
+
+.container > h1 {
+  text-align: center;
+  color: aqua;
+  font: 5em "dyh";
+  margin-top: 20%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 30px;
+}
+
+.item {
+  font: 2.5em;
+}
+
+.item > a {
+  color: aqua;
+}
